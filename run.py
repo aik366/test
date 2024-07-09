@@ -1,17 +1,10 @@
-from app import pass_tkinter, password, grid_test
-
+from app import pass_tkinter, password, grid_test, pack_test
 
 # print(password(12, symbol=False))
 # pass_tkinter()
-def func():
-    if ignor.entry3.get() == "5":
-        ignor.frame1.forget()
-    elif ignor.entry3.get() == "4":
-        ignor.frame1.grid(row=0, column=0, padx=(20, 10), pady=(20, 10), sticky="NSEW")
 
 
+grid_test.button3.configure(fg_color=grid_test.button1.cget("fg_color"))
 
-ignor.button3.configure(fg_color=ignor.button1.cget("fg_color"))
-ignor.button3.configure(command=func)
-
-ignor.app.mainloop()
+# pack_test.app.mainloop()
+grid_test.app.mainloop()
